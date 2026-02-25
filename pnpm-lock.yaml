@@ -29,6 +29,9 @@ importers:
       tailwindcss:
         specifier: ^4.2.0
         version: 4.2.0
+      vanta:
+        specifier: ^0.5.24
+        version: 0.5.24
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -1184,6 +1187,9 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
+  vanta@0.5.24:
+    resolution: {integrity: sha512-fvieEbHy1ZS23zrcX+topzqAgA4Uct1enngOEWLFBgs9TtOf6RDFOYatH7KSVdrABzQDMCQ5myQy+nTSZZwLzg==}
+
   vite@7.3.1:
     resolution: {integrity: sha512-w+N7Hifpc3gRjZ63vYBXA56dvvRlNWRczTdmCBBa+CotUzAPf5b7YMdMR/8CQoeYE5LX3W4wj6RYTgonm1b9DA==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -2237,6 +2243,8 @@ snapshots:
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
+
+  vanta@0.5.24: {}
 
   vite@7.3.1(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:

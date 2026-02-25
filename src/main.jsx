@@ -4,12 +4,13 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 import ErrorPage from './pages/ErrorPages'
-import Dashboard from './pages/Dahsboard'
+import { Navigate } from 'react-router-dom'
+import Dashboard from './pages/Dashboard'
 
 const root = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Navigate to={"/aivie/dashboard"} replace />,
     errorElement: <ErrorPage />
   },
   {
@@ -20,7 +21,7 @@ const root = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={root}>
-    </RouterProvider>
+      <RouterProvider router={root}>
+      </RouterProvider>
   </StrictMode>,
 )

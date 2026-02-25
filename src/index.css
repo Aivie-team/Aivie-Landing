@@ -1,1 +1,14 @@
-@import "tailwindcss" 
+@import "tailwindcss";
+
+.dot-gradient-bg {
+
+  background-image:
+    radial-gradient(circle, rgba(233, 227, 149, 0.818) 1.5px, transparent 1.5px),
+    linear-gradient(90deg,
+      rgba(248, 244, 18, 0.12),
+      rgba(236, 243, 160, 0.12),
+      transparent 75%
+    );
+
+  background-size: 26px 26px, 100% 100%;
+}

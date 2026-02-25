@@ -10,7 +10,7 @@ const ErrorPage = () => {
             </div>
                 <div className="mt-10 text-gray-500">
                     <p>
-                    if you are try to find pages on this site visit this site <Link className="text-blue-500 underline cursor-help" to={"/dashboard"}>See all Pages</Link> first
+                    if you are try to find pages on this site visit this site <Link className="text-blue-500 underline cursor-help" to={"/"}>See all Pages</Link> first
                     </p>
                 </div>
                 <div className="text-gray-500 mt-2">

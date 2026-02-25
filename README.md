@@ -1,16 +1,19 @@
 # Aivie Landing Page
 
-Landing page resmi untuk Aivie — AI Interview Assistant & Communication Coach.
+Official landing page for Aivie AI Interview Assistant & Communication Coach.
 
-Project ini dibuat untuk menampilkan visi produk, fitur utama, pricing, dan mengumpulkan user beta sebelum peluncuran resmi.
+This project is built to present Aivie’s product vision, core features, pricing, and to collect early beta users before the official launch.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
 - React Router DOM
+- FramerMotion
+- tailwindcss
+- react-icons
 - CSS / TailwindCSS (optional)
 
 ### Backend
@@ -30,28 +33,24 @@ Project ini dibuat untuk menampilkan visi produk, fitur utama, pricing, dan meng
 ```
 aivie-landing/
 │
-├── client/                     # React App (Frontend)
+├── frontend/                    
 │   ├── src/
-│   │   ├── components/         # Reusable UI components
-│   │   ├── pages/              # Home, Pricing, FAQ, Contact
-│   │   ├── routes/             # Route configuration
+│   │   ├── components/        
+│   │   ├── pages/             
+│   │   ├── ui/            
 │   │   ├── App.jsx
+|   |   ├── index.css
 │   │   └── main.jsx
 │   │
 │   └── package.json
 │
-├── server/                     # Node Backend
-│   ├── routes/
-│   ├── controllers/
-│   ├── server.js
-│   └── package.json
 │
 └── README.md
 ```
 
 ---
 
-## ✨ Features
+##  Features
 
 - Modern responsive landing page
 - Multi-section layout (Hero, Features, Pricing, FAQ)
@@ -64,18 +63,18 @@ aivie-landing/
 
 ---
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/aivie-landing.git
+git clone https://github.com/Aivie-team/Aivie-Landing.git
 cd aivie-landing
 ```
 
 ---
 
-## ▶️ Frontend Setup
+##  Frontend Setup
 
 ```bash
 cd client
@@ -85,27 +84,12 @@ npm run dev
 
 Frontend runs on:
 ```
-http://localhost:5173
+http://localhost:3013
 ```
 
 ---
 
-## ▶️ Backend Setup
-
-```bash
-cd server
-npm install
-npm run dev
-```
-
-Backend runs on:
-```
-http://localhost:5000
-```
-
----
-
-## 🌐 Frontend Routing
+##  Frontend Routing
 
 React Router DOM digunakan untuk navigasi halaman:
 
@@ -118,7 +102,7 @@ React Router DOM digunakan untuk navigasi halaman:
 
 ---
 
-## 🔌 Backend API Endpoints
+## Backend API Endpoints
 
 Example API routes:
 
@@ -128,33 +112,7 @@ POST /api/contact
 GET  /api/health
 ```
 
----
-
-## 🔐 Environment Variables
-
-Buat file `.env` di dalam folder `server/`
-
-```
-PORT=5000
-MONGO_URI=your_database_url
-```
-
-(Optional jika menggunakan database)
-
----
-
-## 🎯 Project Goal
-
-Landing page ini dibuat untuk:
-
-- Memperkenalkan Aivie ke publik
-- Validasi market
-- Mengumpulkan early users
-- Mempersiapkan product launch
-
----
-
-## 📈 Future Improvements
+##  Future Improvements
 
 - Integrasi Stripe payment
 - Analytics tracking
@@ -164,7 +122,7 @@ Landing page ini dibuat untuk:
 
 ---
 
-## 🧠 About Aivie
+##  About Aivie
 
 Aivie adalah AI-powered interview assistant yang menyediakan:
 
@@ -177,12 +135,7 @@ Aivie adalah AI-powered interview assistant yang menyediakan:
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
-## 👨‍💻 Author
+## Author
 
 Built with passion for real skills and real confidence.
+built with love ❤️
